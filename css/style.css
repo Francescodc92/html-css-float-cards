@@ -83,3 +83,20 @@ section.team-container {
 .description p:last-of-type {
   color: #33a8e1;
 }
+
+/*--------
+Responsive
+---------*/
+@media screen and (max-width: 1000px) {
+  .person {
+    width: calc((100% / 2) - 1.5rem);
+  }
+
+  .person:nth-of-type(3n + 2) {
+    margin-inline: 0;
+  }
+
+  .person:nth-of-type(2n + 2) {
+    margin-left: 1.5rem;
+  }
+}

@@ -42,7 +42,7 @@ Generals
 
 img {
   height: 100%;
-  max-height: 10rem;
+  max-height: 12rem;
 }
 
 .person:nth-of-type(3n + 2) {
@@ -77,6 +77,7 @@ section.team-container {
 }
 
 .description h2 {
+  font-size: 1.8rem;
   text-transform: uppercase;
 }
 
@@ -87,7 +88,7 @@ section.team-container {
 /*--------
 Responsive
 ---------*/
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1150px) {
   .person {
     width: calc((100% / 2) - 1.5rem);
   }
